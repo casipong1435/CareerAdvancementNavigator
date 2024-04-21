@@ -1,0 +1,51 @@
+.add-action,
+.pending-action{
+    height: 150px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.add-action{
+    background: #5461D4;
+}
+.add-action:hover{
+    background: #313877;
+}
+.pending-action{
+    background: #D45454;
+    position: relative;
+}
+.pending-action:hover{
+    background: #8b3737;
+}
+.training-action{
+    height: 150px;
+    width: 100%;
+    background: #232323;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.training-action:hover{
+    background: #141414;
+}
+.add-action-icon,
+.pending-action-icon{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.action-title{
+    font-size: 1rem;
+}
+.pending-count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px 20px;
+    font-size: 1rem;
+}
+.training-count{
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+.training-text{
+    font-size: 2rem;
+}

@@ -1,0 +1,134 @@
+span.profile-id{
+    font-weight: normal;
+    font-size: 15px;
+    margin: auto 15px;
+}
+.button-holder{
+    width: 10%;
+}
+#zoom-photo,.zoom-photo{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 99999;
+}
+#zoomed-img{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+.close-icon{
+    font-size: 2rem;
+    color: white;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+.profile-edit-button{
+    background: #2E3BB5;
+    color: white;
+    border: none;
+    margin: auto 5px;
+}
+.profile-cancel-button{
+    background: rgb(77, 77, 112);
+    color: white;
+    border: none;
+    margin: auto 5px;
+}
+.profile-save-button{
+    background: rgb(247, 180, 55);
+    color: white;
+    border: none;
+    margin: auto 5px;
+}
+#change-password-btn{
+    background: #2E3BB5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#change-password-btn:hover{
+    background: #5461D4;
+}
+.eye-icon{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    top: 0;
+    right: 0;
+    margin: 35px 15px;
+    cursor: pointer;
+}
+.profile-edit-button:hover{
+    background: #5461D4;
+}
+.link-holder a{ 
+    font-size: 1rem;
+    color: #5461D4;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+.link-holder a:hover{ 
+    color: #000A63;
+}
+.link-holder a.current{ 
+    color: #000A63;
+}
+.img-holder{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+}
+img.profile-pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.icon-holder{
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    margin: 50px 25px;
+    opacity: 60%;
+}
+.upload-icon{
+    font-size: 2.2rem;
+    color: rgb(95, 95, 95);
+}
+.notice{
+    font-size: 0.8rem;
+    color: black;
+}
+.subject_group,.career_group{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .toggle-container{
+        flex-direction: column;
+    }
+    .link-holder{
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .subject_group,.career_group{
+        display: block;
+        padding: 0.5rem;
+    }
+    .subject_select,.career_select{
+        margin-bottom: 20px;
+    }
+}

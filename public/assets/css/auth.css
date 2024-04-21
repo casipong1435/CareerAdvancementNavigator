@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+.login-card{
+    width: 300px;
+}
+.active{
+    border-bottom: 2px solid white;
+}   
+.custom-textbox{
+    position: relative;
+}
+#form-container{
+    margin: 0 5rem;
+}
+.icon-user{
+    font-size: 1rem;
+    color: rgb(105, 105, 105);
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+input.textbox-reg{
+    margin: 10px 0;
+}
+.login-btn{
+    background: #2E3BB5;
+    color: white;   
+    border: none;
+}
+select.cmb-role{
+    width: 60%;
+}
+a.register{
+    font-weight: bold;
+    color: #2E3BB5;
+    text-decoration: none;
+}
+.footlink{
+    text-decoration: none;
+    color:#2E3BB5;
+    font-weight: bold;
+}
+.as{
+    font-size: 20px;
+}
+.date-input{
+    width: 68%;
+}
+.register-btn{
+    background: #2E3BB5;
+    color: white;
+    border: none;
+}
+.selfie-btn{
+    color: #2E3BB5;
+    border: 1px solid #2E3BB5;
+    background-color: transparent;
+    font-weight: bold;
+}
+.register-btn:hover{
+background: #5461D4;
+}
+.login-btn:hover {
+    background: #5461D4;
+}
+
+.btn-takephoto,
+.btn-retakephoto,
+.btn-upload{
+    padding: 15px;
+    border-radius: 10%;
+    background-color: transparent;
+}
+.btn-takephoto{
+    border: 1px solid black;
+}
+.btn-retakephoto {
+    border: 1px solid rgb(241, 42, 42);
+}
+.btn-uploadphoto {
+    border: 1px solid #2E3BB5;
+}
+.takephoto-icon{
+    color: black;
+}
+.retakephoto-icon {
+    color: rgb(241, 42, 42);
+}
+.uploadphoto-icon {
+    color: #2E3BB5;
+}
+#close-modal{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.message{
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    .login-card{
+        width: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    #form-container{
+        margin: 0 1rem;
+    }
+}

@@ -1,0 +1,169 @@
+span.icon-eye {
+    margin: 15px -25px;
+    font-size: 16px;
+}
+
+.create-training-btn{
+    background-color: #573ac2;
+    font-size: 4rem;
+    color: white;
+}
+.create-training-btn:hover{
+    background-color: #8269dd;
+    cursor:pointer;
+}
+.training-head{
+    background-color: #573ac2;
+}
+.training-data{
+    background-color: #7876e7;
+}
+.remove-otp{
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    color: white;
+    background: rgb(184, 55, 55);
+    margin: 5px;
+    cursor: pointer;
+}
+.qr-button{
+    background: #573ac2; 
+    font-size: 2rem;
+}
+.qr-button:hover{
+    background: #a289ff; 
+}
+.edit-training:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* 1 */
+.multiple-select1 {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .multiple-select1 summary {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .multiple-select1-dropdown {
+    position: absolute;
+    margin-top: 2px;
+    min-width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .multiple-select1 label {
+    margin: 0;
+    display: block;
+  }
+  
+  .multiple-select1 label > input + .content {
+    padding: 5px 10px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .multiple-select1 label + label {
+    border-top: 1px solid #bbb;
+  }
+  
+  .multiple-select1 label > input:checked + .content {
+    background-color: #bbb;
+  }
+
+  /* 2 */
+.multiple-select2 {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .multiple-select2 summary {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .multiple-select2-dropdown {
+    position: absolute;
+    margin-top: 2px;
+    min-width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .multiple-select2 label {
+    margin: 0;
+    display: block;
+  }
+  
+  .multiple-select2 label > input + .content {
+    padding: 5px 10px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .multiple-select2 label + label {
+    border-top: 1px solid #bbb;
+  }
+  
+  .multiple-select2 label > input:checked + .content {
+    background-color: #bbb;
+  }
+
+  /* 3 */
+.multiple-select3 {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .multiple-select3 summary {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .multiple-select3-dropdown {
+    position: absolute;
+    margin-top: 2px;
+    min-width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .multiple-select3 label {
+    margin: 0;
+    display: block;
+  }
+  
+  .multiple-select3 label > input + .content {
+    padding: 5px 10px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .multiple-select3 label + label {
+    border-top: 1px solid #bbb;
+  }
+  
+  .multiple-select3 label > input:checked + .content {
+    background-color: #bbb;
+  }
+
+  .responded-user-tab{
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .responded-user-tab.active{
+    background: #8267fd;
+  }
+  .responded-user-tab:hover{
+    background: #8267fd;
+  }

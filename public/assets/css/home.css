@@ -1,0 +1,85 @@
+.item-container{
+    background-color: #E4E4E4;
+}
+.user-gender-group{
+    background-color: white;
+    cursor: pointer;
+}
+.user-total-group{
+    background-color: #26253C;
+    cursor: pointer;
+}
+.pending-training-group{
+    background-color: #FF5757;
+    overflow: hidden;
+    cursor: pointer;
+}
+.pending-accounts-group{
+    background-color: #F6B91A;
+    overflow: hidden;
+    cursor: pointer;
+}
+.total-training-group{
+    background-color: #5461D4;
+    cursor: pointer;
+}
+.add-training-group{
+    background-color: #FF5757;
+    cursor: pointer;
+}
+.current-training-group{
+    background: linear-gradient(81deg, #5461D4 1.86%, #CFCB6E 84.8%);
+    text-align: left;
+    cursor: pointer;
+}
+.current-training-group:hover,
+.total-training-group:hover,
+.pending-accounts-group:hover,
+.pending-training-group:hover,
+.user-gender-group:hover,
+.add-training-group:hover{
+    opacity: 90%;
+}
+.dashboard-icons{
+    font-size: 3.5rem;
+    color: black;
+}
+.plus-icon{
+    font-size: 6rem;
+}
+.dashboard-pending-icons{
+    font-size: 4.5rem;
+    color: black;
+}
+.count{
+    font-size: 1.5rem;
+}
+.home-training-count{
+    font-size: 6rem;
+}
+.item-text,.pending-text{
+    font-size: 1.5rem;
+}
+.home-training-text{
+    font-size: 1.5rem;
+}
+.total{
+    top: 0;
+    right: 0;
+    margin: 3px 10px;
+}
+.welcome-container{
+    background: #655dd1;
+    background: linear-gradient(90deg, rgba(93,90,136,1) 0%, rgba(87,87,214,1) 57%, rgba(16,43,213,1) 100%);
+}
+.total-users-head{
+    background: rgb(84,80,136);
+    background: linear-gradient(90deg, rgba(84,80,136,1) 0%, rgba(48,48,112,1) 44%, rgba(60,48,139,1) 100%);
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .dasboard-item-container{
+        flex-direction: column;
+    }
+}

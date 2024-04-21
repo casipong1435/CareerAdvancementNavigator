@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+.second-text{
+    color: #C7C7C7;
+}
+.rounded-full{
+    border-radius: 100%;
+}
+#wrapper{
+    overflow-x: hidden;
+}
+#sidebar-wrapper{
+    background-color: #232323;
+    min-height: 100vh;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading{
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+.sidebar-heading{
+    background-color: #2E3BB5;
+}
+#navbar-top{
+    background-color: #5461D4;
+}
+#sidebar-wrapper .list-group{
+    width: 15rem;
+}
+#page-content-wrapper{
+    min-width: 100vw;
+}
+#wrapper.toggled #sidebar-wrapper{
+    margin-left: 0;
+}
+#menu-toggle{
+    cursor: pointer;
+}
+a.list-group-item{
+    border: none;
+    padding: 12px 20px;
+}
+a.list-group-item{
+    color: #C7C7C7;
+    background: transparent;
+}
+a.list-group-item:hover{
+    color: #fff;
+    background-color: #696969;
+}
+a.list-group-item.current{
+    background-color: transparent;
+    background-color: #696969;
+    color: #fff;
+}
+
+button.list-group-item{
+    border: none;
+    padding: 12px 20px;
+}
+button.list-group-item{
+    color: #C7C7C7;
+    background: transparent;
+}
+button.list-group-item:hover{
+    color: #fff;
+    background-color: #696969;
+}
+.profile{
+    height: 18%;
+    background-color: #232323;
+}
+img.photo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 30px 10px;
+}
+.name,.role{
+    color: white;
+}
+.page-title{
+    color: black;
+    font-weight: bold;
+}
+.footer-dashboard{
+    background-color: #868686;
+}
+.copyright{
+    color: black;
+    font-weight: bold;
+}
+.pending-account-container{
+    height: 90%;
+    width: 99%;
+    padding: 10px;
+}
+.qr-btn{
+    font-size: 15px;
+    color: white;
+    border: none;
+    background: #5461D4;
+}
+.qr-btn:hover{
+    background: #262b5e;
+
+}
+.submit-training{
+    color: white;
+    border: none;
+    background: #5461D4;
+    font-weight: bold;
+}
+.submit-training:hover{
+    background: #262b5e;
+
+}
+.add-user-btn:hover{
+    background: #404aac;
+}
+.modal-header{
+    background: #404aac;
+}
+#modal-button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+}
+.sex-radio{
+    display: flex;
+    overflow: hidden;
+}
+.warning-icon{
+    font-size: 5rem;
+}
+.warning-text{
+    font-size: 1rem;
+}
+
+
+@media (min-width: 768px) {
+    #sidebar-wrapper{
+        margin-left: 0;
+    }
+
+    #page-content-wrapper{
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper{
+        margin-left: -15rem;
+    }
+}
